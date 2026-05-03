@@ -17,10 +17,23 @@ There are several tasks a PREAMP needs to do for the amplifier to function prope
   
 - Generating Distortion (Gain): Overload the preamp's op amp such that the input signal hits the op amp ceiling. This creates heavy distortion.
 
-- Adding Compression: Smooth out the loud and quiet parts of music. Makes the guitar feel more responsive and easier to play. This can be achieved via a compressor circuit.
+- Adding Compression: Smooth out the loud and quiet parts of music. Makes the guitar feel more responsive and easier to play. This can be achieved via a compressor circuit, which is kind of like a negative feedback op amp circuit.
 
 - Harmonic Enrichment: Adds extra frequencies that weren't there originally; makes the sound "rich"/"complex". This can be achieved via non-linear distortion by implementing a JFET transistor, which "curves" the signal to resemble that of a vacuum tube.
 
 - Managing Multiple Channels: This means the amp switches between the "Clean" and "Lead" channels. The "clean" channel is designed to keep the signal pure. The "Lead/Dirty" channel is designed to produce a gritty, crunky, heavy noise. For now, we will only be creating the clean channel.
 
 - Effects Integration: This allows the preamp to add reverb and delay, or loop the signal. For now, this will not be implemented.
+
+The POWER AMP only has one task.
+- Control Volume: Class D amps work by controlling the voltage of the signal input into the speaker. It does this by turning the connection on and off repeatedly thousands of times over, which a certain percentage of the connections being on and a certain percentage of the connections being off.
+
+Sources/Research:
+https://www.roland.com/uk/blog/inside-guitar-amplifier-part-1/
+https://ieeexplore.ieee.org/document/9015619
+https://blog.andertons.co.uk/labs/preamp-vs-power-amp#:~:text=What%20Does%20A%20Power%20Amp,tighter%20and%20more%20compressed%20sound.
+https://www.abt.com/learn/preamplifier-vs-amplifier-whats-the-difference
+https://www.youtube.com/watch?v=wj-d5h8E9YU&t=212s
+https://www.gilmourish.com/?p=5345
+https://www.humbuckermusic.com/pages/ways-to-control-your-amp-volume-article
+
