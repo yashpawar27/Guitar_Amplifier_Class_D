@@ -27,6 +27,7 @@ There are several tasks a PREAMP needs to do for the amplifier to function prope
 
 The POWER AMP only has one task.
 - Control Volume: Class D amps work by controlling the voltage of the signal input into the speaker. It does this by turning the connection on and off repeatedly thousands of times over, which a certain percentage of the connections being on and a certain percentage of the connections being off.
+- Ouput Low-Pass Filter: Smooths the analog sine waves before thet hit the speaker.
 
 Sources/Research:
 https://www.roland.com/uk/blog/inside-guitar-amplifier-part-1/
